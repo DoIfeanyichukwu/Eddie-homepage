@@ -1,0 +1,118 @@
+.header {
+    width: 90%;
+    margin: 0 auto;
+    margin-block-start: 42px;
+}
+
+.logo {
+    font-family: 'Heebo', sans-serif;
+    color: #333333;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block-end: 3rem;
+}
+
+.menu {
+    text-indent: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    border: none;
+    background-color: transparent;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.open {
+    background-image: url(../img/menu.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.close {
+    background-image: url(../img/close.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav {
+    display: none;
+}
+
+
+/* intro */
+.intro {
+    width: 18.1875rem;
+    margin: 0 auto;
+}
+.intro-text {
+    font-weight: 500;
+    color: #2d9cdb;
+    font-size: .75rem;
+    line-height: 1.125;
+}
+.intro-text-bg {
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #333333;
+    margin-block-end: 0.9375rem;
+}
+
+/* hero */
+.hero {
+    margin-block-end: 1.375rem;
+}
+.hero img {
+    border-radius: .625rem;
+}
+
+/* lead */
+.lead {
+    width: 18.1875rem;
+    margin: 0 auto;
+}
+.lead-text-bg {
+    font-weight: 500;
+    color: #333333;
+    font-size: 1.5rem;
+    width: 14.1875rem;
+    margin-block-end: 1.7625rem;
+}
+.lead-text {
+    font-weight: 400;
+    font-size: .75rem;
+    color: #4f4f4f;
+    line-height: 1.525;
+    width: 275px;
+    margin-block-end: 1.9375rem;
+}
+
+.label {
+    color: #828282;
+    font-weight: 500;
+    font-size: 0.625rem;
+    line-height: 0.9375;
+}
+
+.input {
+    width: 18.1875rem;
+    height: 2.9375rem;
+    position: relative;
+}
+
+.form-btn {
+    position: absolute;
+    color: #f2f2f2;
+    background-color: #2d9cdb;
+    border: none;
+    font-weight: bold;
+    right: 2%;
+    top: 5px;
+    padding: 11px 20px 13px 21px;
+    border-radius: .75rem;
+}
+
+.lead-form {
+    margin-block-end: 6.375rem;
+}
