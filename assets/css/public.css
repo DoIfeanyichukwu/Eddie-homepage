@@ -24,3 +24,16 @@ input {
     padding-inline-start: 1.1875rem;
     font-weight: 500;
 }
+
+.container {
+    width: 88%;
+    margin: 0 auto;
+}
+
+.main-section-text {
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #333333;
+    line-height: 2;
+    padding: 0 1.4rem;
+}
