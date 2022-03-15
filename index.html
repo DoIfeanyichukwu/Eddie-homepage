@@ -5,7 +5,7 @@
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1,
-  maximum-scale=5"
+      maximum-scale=5"
     />
 
     <link rel="icon" href="devchallenges.png" />
@@ -15,81 +15,358 @@
       type="image/x-icon"
       href="https://devchallenges.io/"
     />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-
+    <link rel="stylesheet" href="./assets/css/public.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
     <title>Devchallenges</title>
 
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
-
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
   </head>
   <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
+    
+    <header class="header">
+      <div class="banner">
+        
+        <h1 class="logo">Edie</h1>
+  
+        <div class="nav-container">
 
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
+          <button class="menu open">
+            <span>menu open</span>
+          </button>
+          <nav class="nav">
+            <ul class="nav-list">
+
+              <li class="nav-list-item"><a href="#"><span class="nav-item-hover">Home</span></a></li>
+
+
+              <li class="nav-list-item"><a href="#"><span class="nav-item-hover">Services</span></a></li>
+
+              <li class="nav-list-item"><a href="#"><span class="nav-item-hover">Our Works</span></a></li>
+
+              <li class="nav-list-item"><a href="#"><span class="nav-item-hover">Clients</span></a></li>
+
+              <li class="nav-list-item"><a href="#"><span class="nav-item-hover">Contact</span></a></li>
+
+            </ul>
+            <button class="menu close">
+              <span>menu close</span>
+            </button>
+          </nav>
+
+        </div>
+
+
       </div>
 
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
-    </div>
+      <div class="intro">
+        <p class="intro-text">Unhappy with your websites?</p>
+        <h2 class="intro-text-bg">We create beautiful and fast web services</h2>
+      </div>
+
+      <figure class="hero">
+        <img src="./assets/img/heroImage.jpg" alt="page main image">
+      </figure>
+
+      <div class="lead">
+
+        <h2 class="lead-text-bg">Story, emotion and purpose</h2>
+        <p class="lead-text">
+          We help transform your ideas into real world applications that will outperform your toughest competition and help you achieve your strategic goals in short period of time.
+        </p>
+
+        <form method="post" class="lead-form">
+
+          <label class="label no-visible" for="header-email">Want us to contact you?</label>
+
+          <div class="input">
+
+            <input type="email" name="email" id="header-email" placeholder="Email">
+            <button class="form-btn">Join</button>
+
+          </div>
+
+        </form>
+      </div>
+
+    </header>
+
+
+    <main class="main">
+
+      <div class="container">
+
+        <section class="main-section section offer">
+
+          <h2 class="main-section-text">
+            We offer high demand services  
+          </h2>
+
+          <div class="flex">
+
+            <div class="offer-card">
+
+              <div class="offer-card-img pen" aria-disabled="true">
+                <img src="./assets/img/pen.svg" alt="pen icon">
+              </div>
+
+              <h3 class="offer-card-main-text">UI/UX Design</h3>
+
+              <p class="offer-card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.
+              </p>
+
+              <button class="offer-button">Get started</button>
+
+            </div>
+
+            <div class="offer-card">
+              <div class="offer-card-img code" aria-disabled="true">
+                <img src="./assets/img/code.svg" alt="code icon">
+              </div>
+
+              <h3 class="offer-card-main-text">Front End</h3>
+
+              <p class="offer-card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.
+              </p>
+
+              <button class="offer-button">Get started</button>
+
+            </div>
+
+            <div class="offer-card">
+              <div class="offer-card-img server" aria-disabled="true">
+                <img src="./assets/img/server.svg" alt="server icon">
+              </div>
+
+              <h3 class="offer-card-main-text">Back End</h3>
+
+              <p class="offer-card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.
+              </p>
+
+              <button class="offer-button">Get started</button>
+
+            </div>
+
+          </div>
+
+        </section>
+
+
+        <section class="main-section section design">
+
+          <h2 class="main-section-text">
+            Good design means good business
+          </h2>
+
+          <div class="grid design-grid">
+
+            <div class="card one">
+
+              <figure class="card-img">
+                <img src="./assets/img/smarthome.jpg" alt="smarthome app image">
+              </figure>
+
+              <p class="title">Full Stack application</p>
+              <p class="name">Smart home dashboard</p>
+
+            </div>
+
+
+            <div class="card two">
+
+              <figure class="card-img">
+                <img src="./assets/img/onboard.png" alt="onboard app image">
+              </figure>
+
+              <p class="title">UX/UI design</p>
+              <p class="name">Onboard application</p>
+
+            </div>
+
+
+            <div class="card three ">
+
+              <figure class="card-img">
+                <img src="./assets/img/booking.png" alt="booking app image">
+              </figure>
+
+              <p class="title">Mobile application</p>
+              <p class="name">Booking system</p>
+
+            </div>
+
+
+            <div class="card four">
+
+              <figure class="card-img">
+                <img src="./assets/img/juice-product.png" alt="juice product app image">
+              </figure>
+
+              <p class="title">Front End application</p>
+              <p class="name">Juice product homepage</p>
+
+            </div>
+
+          </div>
+
+          <span class="more">
+            see more <span class="more-icon"><img src="./assets/img/arrow.png" alt="arrow icon" aria-disabled="true"></span>
+          </span>
+
+        </section>
+
+
+        <section class="main-section section team">
+
+          <div class="flex">
+
+            <div class="team-intro">
+
+              <p class="team-red">
+                Meet the team
+              </p>
+
+              <h2 class="main-section-text">
+                We are chilled and a laidback team
+              </h2>
+
+              <p class="team-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+
+            </div>
+
+            <div class="grid team-grid">
+
+              <figure class="team-img-container team-one" >
+                <img src="./assets/img/person1.png" alt="person">
+              </figure>
+
+              <figure class="team-img-container team-two">
+                <img src="./assets/img/person2.png" alt="person">
+              </figure>
+
+              <figure class="team-img-container team-three">
+                <img src="./assets/img/person3.png" alt="person">
+              </figure>
+
+            </div>
+
+          </div>
+
+        </section>
+
+
+        <section class="main-section section comment">
+
+          <blockquote class="quote">
+            “Fast and outstanding resutls. Edie understands their customer’s needs. They have a young and talented team.”    
+          </blockquote>
+
+          <div class="id flex">
+            <figure class="id-img">
+              <img src="./assets/img/person4.png" alt="Carlos Tran">
+            </figure>
+
+            <div class="id-info">
+              <p class="id-name">Carlos Tran</p>
+              <p class="id-pos">The Decorate Gatsby</p>
+            </div>
+          </div>
+
+        </section>
+
+      </div>
+
+
+    </main>
+
+
+    <footer class="footer">
+      <div class="container">
+
+        <div class="links flex">
+
+          <nav class="footer-nav">
+
+            <ul class="footer-nav-list">
+
+              <li class="footer-list-item">
+                <a href="">
+                  <span class="nav-item-hover">Home</span>
+                </a>
+              </li>
+
+              <li class="footer-list-item">
+                <a href="">
+                  <span class="nav-item-hover">Services</span>
+                </a>
+              </li>
+
+              <li class="footer-list-item">
+                <a href="">
+                  <span class="nav-item-hover">Our Works</span>
+                </a>
+              </li>
+
+              <li class="footer-list-item">
+                <a href="">
+                  <span class="nav-item-hover">Clients</span>
+                </a>
+              </li>
+
+              <li class="footer-list-item">
+                <a href="">
+                  <span class="nav-item-hover">Contact</span>
+                </a>
+              </li>
+
+            </ul>
+          </nav>
+
+          <div class="nav-logo">
+
+            <h1 class="foter-main-logo logo">Edie</h1>
+
+            <div class="socials">
+
+              <a href="#" class="socials-link">
+                <span class="socials-icon"><img src="./assets/img/instagram.svg" alt=""></span>
+              </a>
+
+              <a href="#" class="socials-link">
+                <span class="socials-icon"><img src="./assets/img/linkedin.svg" alt=""></span>
+              </a>
+
+              <a href="#" class="socials-link">
+                <span class="socials-icon"><img src="./assets/img/twitter.svg" alt=""></span>
+              </a>
+
+            </div>
+          </div>
+
+          <form method="post" class="footer-form">
+
+            <label class="label no-visible" for="footer-email">Want us to contact you?</label>
+
+            <div class="input">
+              <input type="email" name="email" id="footer-email" placeholder="Email">
+              <button class="form-btn">Join</button>
+            </div>
+
+          </form>
+
+        </div>
+
+        <p class="footer-text">
+          created by <a href="#">DoIfeanyichukwu</a> - <a href="#">devchallenges.io</a>
+        </p>
+
+      </div>
+    </footer>
+
   </body>
 </html>
