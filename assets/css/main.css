@@ -1,4 +1,4 @@
-.team, .comment{
+.comment{
     display: none;
 }
 
@@ -113,6 +113,64 @@
     vertical-align: middle;
     margin-inline-start: 8px;
 }
-/* .more-icon img {
-    width: 100%;
-} */
+
+
+/* team */
+.team {
+    margin-block-end: 6.25rem;
+}
+.team-red {
+    color: #EB5757;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.team-intro .main-section-text {
+    padding: 0;
+    font-weight: 500;
+    font-size: 2.25rem;
+    line-height: 1.5;
+    color: #333333;
+    margin-block-end: .875rem;
+}
+.team-text {
+    color: #4f4f4f;
+    font-size: 1rem;
+    line-height: 1.2;
+    font-weight: 400;
+    margin-block-end: 2.25rem;
+}
+
+.team-img-container, .team-img-container img {
+    border-radius: 1.5rem;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: .5rem;
+    height: 320.69px;
+    width: 349.32px;
+    margin: 0 auto;
+}
+.team-one {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    width: 144.76px;
+    height: 144.76px;
+}
+.team-two {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    width: 162.25px;
+    height: 167.03px;
+    margin-block-start: -6.5rem;
+}
+.team-three {
+    grid-column: 1 / 2;
+    width: 178.16px;
+    margin-block-start: 45%;
+    margin-inline-start: -.5rem;
+    height: 178.16px;
+}
