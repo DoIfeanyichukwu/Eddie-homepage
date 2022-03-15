@@ -1,4 +1,4 @@
-.design, .team, .comment{
+.team, .comment{
     display: none;
 }
 
@@ -67,3 +67,52 @@
     line-height: 1.5;
     height: 2.625rem;
 }
+
+/* design */
+.design {
+    margin-block-end: 6.25rem;
+}
+.design .main-section-text {
+    margin-block-end: 3rem;
+}
+
+.card-img , .card-img img{
+    border-radius: .75rem;
+}
+
+.card + .card {
+    margin-block-start: 2.5rem;
+}
+.title {
+    font-size: .75rem;
+    line-height: 1.1;
+    color: #828282;
+    font-weight: 300;
+}
+.name {
+    color: #333333;
+    font-weight: 500;
+    font-size: 1.125rem;
+}
+.more {
+    display: block;
+    margin-block-start: 2.1875rem;
+}
+.more a {
+    color: #2D9CDB;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    text-decoration: none;
+    display: inline-block;
+}
+.more-icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-inline-start: 8px;
+}
+/* .more-icon img {
+    width: 100%;
+} */
