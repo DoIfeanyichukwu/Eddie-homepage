@@ -37,7 +37,55 @@
 }
 
 .nav {
+    transform: translateX(100%);
+    padding-block-start: 42px;
+    width: 55%;
+    position: fixed;
+    z-index: 10;
+    background-color: #fff;
+    box-shadow: 2px 0px 3px #4f4f4f;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    font-size: 1.5rem;
+    line-height: 36px;
+    font-weight: 500;
+    color: #333333;
+    padding-inline-start: 2.5rem;
+    transition: linear .3s;
+}
+.close {
+    position: absolute;
+    top: 2%;
+    margin-block-start: 42px;
+    right: 1.17rem;
+}
+
+.nav-list {
+    list-style: none;
+    margin-block-start: 7.5rem;
+}
+.nav-list-item + .nav-list-item {
+    margin-block-start: 1.5rem;
+}
+.nav-list a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+.modal {
+    display: block;
+}
+.nav-modal {
     display: none;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.4);
+    backdrop-filter: blur(5px);
 }
 
 
@@ -88,13 +136,6 @@
     margin-block-end: 1.9375rem;
 }
 
-.label {
-    color: #828282;
-    font-weight: 500;
-    font-size: 0.625rem;
-    line-height: 0.9375;
-}
-
 .input {
     width: 18.1875rem;
     height: 2.9375rem;
@@ -115,4 +156,82 @@
 
 .lead-form {
     margin-block-end: 6.375rem;
+}
+
+
+@media (min-width: 1440px)
+{
+    .menu {
+        display: none;
+    }
+    .logo {
+        font-size: 2.25rem;
+        font-weight: 800;
+        line-height: 52.88px;
+    }
+
+    .nav {
+        transform: none;
+        padding: 0;
+        width: 100%;
+        position: static;
+        background-color: transparent;
+        box-shadow: none;
+        font-size: 1.5rem;
+        line-height: 36px;
+        font-weight: 500;
+        color: #333333;
+    }
+    .nav-container {
+        width: 50%;
+    }
+
+    
+    .nav-list {
+        list-style: none;
+        margin: 0;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .nav-list-item + .nav-list-item {
+        margin: 0;
+    }
+    .nav-modal {
+        display: none;
+    }
+
+
+    /* intro */
+    .intro,.lead {
+        width: 100%;
+        margin-inline-start: 17.3125rem;
+    }
+    .intro-text-bg, .lead-text-bg{
+        font-size: 3rem;
+        line-height: 72px;
+    }
+    .intro-text {
+        font-size: 1.125rem;
+        line-height: 27px;
+    }
+
+    /* lead */
+    .lead-text-bg {
+        width: 100%;
+    }
+    .lead-text {
+        font-size: 1.125rem;
+        line-height: 27px;
+        width: 366px;
+    }
+    .input {
+        width: 21.875rem;
+        height: 3.5625rem;
+        position: relative;
+    }
+    .form-btn {
+        width: 5.875rem;
+        height: 3.0625rem;
+        font-size: 1.125rem;
+    }
 }

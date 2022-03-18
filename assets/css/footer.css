@@ -4,6 +4,7 @@
     padding-block-start: 1.875rem;
     padding-block-end: 1.5rem;
     padding-inline: 1.4rem;
+    width: 100%;
 }
 .footer-nav-list {
     list-style: none;
@@ -47,4 +48,18 @@
 }
 .footer-text a {
     color: inherit;
+}
+@media (min-width: 768px)
+{
+    .links.flex {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media (min-width: 1440px)
+{
+    .links.flex {
+        display: flex;
+        justify-content: space-between;
+    }
 }

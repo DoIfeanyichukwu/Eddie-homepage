@@ -2,6 +2,7 @@
 
 html {
     font-family: 'Poppins', sans-serif;
+    /* overflow-x: hidden; */
 }
 
 *,*::after,*::before {
@@ -43,4 +44,30 @@ input {
     color: #333333;
     line-height: 1.5;
     padding: 0 1.4rem;
+}
+
+
+
+@media (min-width: 1440px)
+{
+    html {
+        max-width: 1440px;
+        margin: 0 auto;
+        overflow-x: hidden;
+    }
+    .label {
+        color: #828282;
+        font-weight: 500;
+        font-size: 0.875rem;
+        line-height: 21px;
+    }
+    input {
+        font-size: 1.125rem;
+        font-weight: 500;
+        line-height: 27px;
+    }
+    .container {
+        width: 70%;
+        margin: 0 auto;
+    }
 }
