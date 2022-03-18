@@ -15,10 +15,10 @@
       type="image/x-icon"
       href="https://devchallenges.io/"
     />
-    <link rel="stylesheet" href="./assets/css/public.css">
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/public.css">
     <title>Devchallenges</title>
 
   </head>
@@ -376,5 +376,23 @@
       </div>
     </footer>
 
+    <script>
+      const close = document.querySelector('.menu.close');
+      const open = document.querySelector('.menu.open');
+      const nav = document.querySelector('.nav');
+      const modal = document.querySelector('.nav-modal');
+
+      open.addEventListener('click', (event) => {
+        event.preventDefault()
+        nav.classList.add('show')
+        modal.classList.add('show-modal')
+      })
+
+      close.addEventListener('click', (event) => {
+        event.preventDefault();
+        nav.classList.remove('show')
+        modal.classList.remove('show-modal')
+      })
+    </script>
   </body>
 </html>

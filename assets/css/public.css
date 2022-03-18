@@ -71,3 +71,10 @@ input {
         margin: 0 auto;
     }
 }
+
+.show {
+    transform: translateX(0%);
+}
+.show-modal {
+    display: block;
+}
