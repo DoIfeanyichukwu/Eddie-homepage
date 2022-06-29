@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Edie Homepage}</h1>
+<h1 align="center">Edie Homepage</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/DoIfeanyichukwu/Eddie-homepage">
+    <a href="https://github.com/HIIfeanyichukwu/Eddie-homepage">
       Solution
     </a>
     <span> | </span>
@@ -67,5 +67,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [@DoIfeanyichukwu](https://github.com/DoIfeanyichukwu)
-- Twitter [@DoIfeanyichukwu](https://twitter.com/DoIfeanyichukwu)
+- GitHub [@HIIfeanyichukwu](https://github.com/HIIfeanyichukwu)
+- Twitter [@HIIfeanyichukwu](https://twitter.com/HIIfeanyichukwu)
